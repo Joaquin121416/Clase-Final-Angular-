@@ -1,0 +1,11 @@
+<section fxLayout="column" fxLayoutAlign="center center">
+  <h1 mat-dialog-title>Aviso de Confirmación</h1>
+  <mat-dialog-content>
+    <p>{{ data.mensaje}}<br>
+    '{{ data.mensaje1}}'</p>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-raised-button color="warn" (click)="cancelar()">No</button>
+    <button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Si</button>
+  </mat-dialog-actions>
+</section>

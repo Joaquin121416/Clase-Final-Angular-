@@ -1,0 +1,9 @@
+.mat-header-cell {
+  text-align: center;
+}
+.mat-cell-center{
+  text-align: center;
+}
+mat-form-field{
+  width: 100%;
+}

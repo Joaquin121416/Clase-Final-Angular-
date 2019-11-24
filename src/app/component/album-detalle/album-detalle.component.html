@@ -1,0 +1,14 @@
+<section fxLayout="row wrap" fxLayoutAlign="center center">
+  <mat-card fxFlex="800px" fxFlex.xs="100%">
+    <mat-card-title>Detaller del Album</mat-card-title>
+      <mat-card-content>
+        <strong style="color: darkgrey">Nombre:</strong>
+          <p>{{album.nombre}}</p>
+        <strong style="color: darkgrey">Descripcion:</strong>
+          <p >{{album.descripcion}}</p>
+      </mat-card-content>
+      <mat-card-actions align="center">
+        <button type="button" mat-raised-button color="warn" (click)="cancelar()">Cancel</button>
+      </mat-card-actions>
+  </mat-card>
+</section>
